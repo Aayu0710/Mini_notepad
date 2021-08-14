@@ -5,7 +5,7 @@ import os
 root = Tk()
 root.geometry("666x466")
 root.title("Notepad")
-#Here is the problem.
+#Here was the problem.
 '''img = PhotoImage(file="C:\\Users\\HP\\Downloads\\note.png")
 root.iconphoto(False,img)'''
 def new():
