@@ -5,8 +5,9 @@ import os
 root = Tk()
 root.geometry("666x466")
 root.title("Notepad")
-img = PhotoImage(file="C:\\Users\\HP\\Downloads\\note.png")
-root.iconphoto(False,img)
+#Here was the problem.
+'''img = PhotoImage(file="C:\\Users\\HP\\Downloads\\note.png")
+root.iconphoto(False,img)'''
 def new():
     global file
     root.title("Untitled_Note")
